@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head><link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Amera Marketing</title>
+<title>AmEra Marketing</title>
 <!-- Tailwind CSS CDN -->
 <!-- Font Awesome CDN for icons -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
@@ -14,42 +15,56 @@
         body {
             font-family: 'Inter', sans-serif;
         }
+
         .animate-fade-in-down {
             animation: fadeInDown 1s ease-out forwards;
             opacity: 0;
             transform: translateY(-20px);
         }
+
         .animate-fade-in-up {
             animation: fadeInUp 1s ease-out forwards;
             opacity: 0;
             transform: translateY(20px);
-            animation-delay: 0.3s; /* Delay for a staggered effect */
+            animation-delay: 0.3s;
+            /* Delay for a staggered effect */
         }
+
         @keyframes fadeInDown {
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
+
         @keyframes fadeInUp {
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
+
         /* Hide scrollbar for a cleaner look, but allow scrolling */
         body {
-            -ms-overflow-style: none;  /* IE and Edge */
-            scrollbar-width: none;  /* Firefox */
+            -ms-overflow-style: none;
+            /* IE and Edge */
+            scrollbar-width: none;
+            /* Firefox */
         }
+
         body::-webkit-scrollbar {
-            display: none; /* Chrome, Safari, Opera */
+            display: none;
+            /* Chrome, Safari, Opera */
         }
+
         /* Style for validation error messages */
         .error-message {
-            color: #ef4444; /* Tailwind's red-500 */
-            font-size: 0.875rem; /* text-sm */
-            margin-top: 0.25rem; /* mt-1 */
+            color: #ef4444;
+            /* Tailwind's red-500 */
+            font-size: 0.875rem;
+            /* text-sm */
+            margin-top: 0.25rem;
+            /* mt-1 */
             text-align: left;
         }
 
@@ -59,34 +74,57 @@
         input[type="email"],
         textarea {
             width: 100%;
-            padding: 0.75rem; /* p-3 */
-            border: 1px solid #facc15; /* border-yellow-400 */
-            background-color: #000000; /* bg-black */
-            color: #ffffff; /* text-white */
-            border-radius: 0.375rem; /* rounded-md */
-            box-sizing: border-box; /* Ensures padding doesn't increase width */
+            padding: 0.75rem;
+            /* p-3 */
+            border: 1px solid #facc15;
+            /* border-yellow-400 */
+            background-color: #000000;
+            /* bg-black */
+            color: #ffffff;
+            /* text-white */
+            border-radius: 0.375rem;
+            /* rounded-md */
+            box-sizing: border-box;
+            /* Ensures padding doesn't increase width */
         }
 
         input[type="text"]:focus,
         input[type="email"]:focus,
         textarea:focus {
             outline: none;
-            box-shadow: 0 0 0 2px #facc15; /* focus:ring-2 focus:ring-yellow-400 */
-            border-color: transparent; /* focus:border-transparent */
+            box-shadow: 0 0 0 2px #facc15;
+            /* focus:ring-2 focus:ring-yellow-400 */
+            border-color: transparent;
+            /* focus:border-transparent */
         }
 
         /* Fallback for red border on error */
         input.border-red-500,
         textarea.border-red-500 {
-            border-color: #ef4444 !important; /* Use !important to override Tailwind if needed */
+            border-color: #ef4444 !important;
+            /* Use !important to override Tailwind if needed */
         }
-    
-        h1, h2, h3 { font-family: 'Playfair Display', serif; }</style>
-<link href="/favicon.ico" rel="icon" type="image/x-icon"/><meta content="Amera Marketing - Digital Marketing Services to grow your brand" name="description"/><meta content="Amera Marketing, Digital Marketing, SEO, Branding, Social Media" name="keywords"/><meta content="Amera Marketing" name="author"/><meta content="Amera Marketing" property="og:title"/><meta content="Grow your brand with strategy-driven digital marketing services." property="og:description"/><meta content="https://ameramarketing.in/amera-logo.jpeg" property="og:image"/><meta content="https://ameramarketing.in" property="og:url"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><script type="application/ld+json">
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+<link href="/favicon.ico" rel="icon" type="image/x-icon"/>
+<meta content="AmEra Marketing - Digital Marketing Services to grow your brand" name="description"/>
+<meta content="AmEra Marketing, Digital Marketing, SEO, Branding, Social Media" name="keywords"/>
+<meta content="AmEra Marketing" name="author"/>
+<meta content="AmEra Marketing" property="og:title"/>
+<meta content="Grow your brand with strategy-driven digital marketing services." property="og:description"/>
+<meta content="https://ameramarketing.in/amera-logo.jpeg" property="og:image"/>
+<meta content="https://ameramarketing.in" property="og:url"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Amera Marketing",
+  "name": "AmEra Marketing",
   "url": "https://ameramarketing.in",
   "logo": "https://ameramarketing.in/amera-logo.jpeg",
   "description": "Digital marketing agency helping brands grow through SEO, social media and advertising.",
@@ -104,7 +142,13 @@
     "https://www.facebook.com/ameramarketing"
   ]
 }
-</script><link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" referrerpolicy="no-referrer" rel="stylesheet"/><link href="favicon.ico" rel="icon" type="image/x-icon"/><link href="favicon.ico" rel="icon" sizes="16x16" type="image/png"/><link href="favicon.ico" rel="apple-touch-icon"/><link href="site.webmanifest" rel="manifest"/></head>
+</script>
+<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" referrerpolicy="no-referrer" rel="stylesheet"/>
+<link href="favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="favicon.ico" rel="icon" sizes="16x16" type="image/png"/>
+<link href="favicon.ico" rel="apple-touch-icon"/>
+<link href="site.webmanifest" rel="manifest"/>
+</head>
 <body class="min-h-screen bg-black antialiased text-white">
 <!-- Navigation Bar -->
 <nav class="bg-black shadow-sm p-4 md:p-6 sticky top-0 z-50 rounded-b-lg">
@@ -112,7 +156,7 @@
 <!-- Logo and Brand Name -->
 <a class="flex items-center space-x-2" href="#">
 <img alt="Amera Marketing Logo" class="h-10 w-auto object-contain" onerror="this.onerror=null;this.src='https://placehold.co/120x40/000000/FFD700?text=Amera+Logo';" src="amera-logo.jpeg"/>
-<span class="text-2xl font-bold text-yellow-400">Amera Marketing</span>
+<span class="text-2xl font-bold text-yellow-400">AmEra Marketing</span>
 </a>
 <!-- Mobile Menu Button (Hamburger) -->
 <div class="md:hidden">
@@ -121,7 +165,8 @@
 <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
 </svg>
 <svg class="w-6 h-6 hidden" fill="none" id="close-icon" stroke="currentColor" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
 </svg>
 </button>
 </div>
@@ -131,7 +176,7 @@
 <a class="text-white hover:text-yellow-400 font-medium transition duration-200 px-3 py-2 rounded-md hover:bg-yellow-900" href="#about">About</a>
 <a class="text-white hover:text-yellow-400 font-medium transition duration-200 px-3 py-2 rounded-md hover:bg-yellow-900" href="#services">Services</a>
 <a class="text-white hover:text-yellow-400 font-medium transition duration-200 px-3 py-2 rounded-md hover:bg-yellow-900" href="#contact">Contact</a>
-</div>
+<a class="text-white hover:text-yellow-400 font-medium transition duration-200 px-3 py-2 rounded-md hover:bg-yellow-900" href="blog.html">Blog</a></div>
 </div>
 <!-- Mobile Menu (conditionally rendered by JS) -->
 <div class="md:hidden mt-4 space-y-2 px-4 sm:px-6 pb-2 hidden" id="mobile-menu">
@@ -139,13 +184,13 @@
 <a class="block text-white hover:text-yellow-400 font-medium transition duration-200 px-3 py-2 rounded-md hover:bg-yellow-900 mobile-nav-link" href="#about">About</a>
 <a class="block text-white hover:text-yellow-400 font-medium transition duration-200 px-3 py-2 rounded-md hover:bg-yellow-900 mobile-nav-link" href="#services">Services</a>
 <a class="block text-white hover:text-yellow-400 font-medium transition duration-200 px-3 py-2 rounded-md hover:bg-yellow-900 mobile-nav-link" href="#contact">Contact</a>
-</div>
+<a class="block text-white hover:text-yellow-400 font-medium transition duration-200 px-3 py-2 rounded-md hover:bg-yellow-900 mobile-nav-link" href="blog.html">Blog</a></div>
 </nav>
 <!-- Hero Section -->
 <section class="bg-gradient-to-b from-black via-gray-900 to-black text-white py-20 px-4 sm:px-6 rounded-b-lg shadow-lg" id="home">
 <div class="container mx-auto text-center">
 <h1 class="text-3xl sm:text-4xl md:text-5xl sm:text-6xl font-extrabold leading-tight mb-4 sm:mb-6 animate-fade-in-down text-yellow-400">
-                Amera Marketing: Grow Your Business Digitally
+                AmEra Marketing: Grow Your Business Digitally
             </h1>
 <p class="text-base sm:text-lg md:text-xl mb-8 sm:mb-10 opacity-90 animate-fade-in-up animate-delay-500">
                 🚀 Helping businesses grow with digital marketing. <br/>
@@ -158,23 +203,24 @@
 </div>
 </section>
 <section class="max-w-3xl mx-auto px-4 py-8 text-center">
-  <h2 class="text-2xl font-semibold mb-4 text-white">Grow Your Business with Amera Marketing</h2>
-  <p class="text-white text-base leading-relaxed">
-    Amera Marketing is a results-driven digital marketing agency based in India, helping startups and businesses scale through powerful online strategies. 
-    Our services include <strong>SEO</strong>, <strong>social media marketing</strong>, <strong>Instagram ads</strong>, <strong>Google Ads</strong>, and <strong>brand building</strong>.
-    Whether you’re launching a new product or aiming to generate leads, we turn clicks into conversions.
-    <br /><br />
-    Trusted by growing brands across industries, we focus on delivering measurable ROI through innovative campaigns and data-backed strategies.
-    Start your digital growth journey today with a team that understands performance.
-  </p>
+<h2 class="text-2xl font-semibold mb-4 text-white">Grow Your Business with AmEra Marketing</h2>
+<p class="text-white text-base leading-relaxed">
+            AmEra Marketing is a results-driven digital marketing agency based in India, helping startups and businesses
+            scale through powerful online strategies.
+            Our services include <strong>SEO</strong>, <strong>social media marketing</strong>, <strong>Instagram
+                ads</strong>, <strong>Google Ads</strong>, and <strong>brand building</strong>.
+            Whether you’re launching a new product or aiming to generate leads, we turn clicks into conversions.
+            <br/><br/>
+            Trusted by growing brands across industries, we focus on delivering measurable ROI through innovative
+            campaigns and data-backed strategies.
+            Start your digital growth journey today with a team that understands performance.
+        </p>
 </section>
-
-
 <!-- About Section -->
 <section class="py-16 sm:py-20 px-4 sm:px-6 bg-black rounded-lg shadow-md mx-auto my-8 max-w-6xl" id="about">
 <div class="container mx-auto">
 <h2 class="text-2xl sm:text-3xl md:text-3xl sm:text-4xl font-bold text-center mb-10 text-yellow-400">
-                About Amera Marketing
+                About AmEra Marketing
             </h2>
 <div class="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-12">
 <div class="md:w-1/2 flex justify-center">
@@ -182,7 +228,7 @@
 </div>
 <div class="md:w-1/2 text-center md:text-left">
 <p class="text-base sm:text-lg leading-relaxed mb-4 sm:mb-6 text-white">
-                        Amera Marketing is a dedicated advertising and marketing agency focused
+                        AmEra Marketing is a dedicated advertising and marketing agency focused
                         on delivering measurable growth for businesses. We specialize in
                         crafting effective digital strategies that connect you with your target
                         audience and drive results.
@@ -208,19 +254,22 @@
 <div class="bg-black p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105 hover:shadow-[0_0_15px_4px_rgba(255,215,0,0.5)] border border-yellow-400 transition-all duration-300">
 <div class="text-4xl sm:text-5xl mb-4 sm:mb-6">📈</div>
 <h3 class="text-xl font-semibold text-yellow-400 mb-2">Digital Marketing Strategy</h3>
-<p class="text-white">Developing comprehensive strategies to maximize your online reach and impact.</p>
+<p class="text-white">Developing comprehensive strategies to maximize your online reach and impact.
+                    </p>
 </div>
 <!-- Service Card 2 -->
 <div class="bg-black p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105 hover:shadow-[0_0_15px_4px_rgba(255,215,0,0.5)] border border-yellow-400 transition-all duration-300">
 <div class="text-4xl sm:text-5xl mb-4 sm:mb-6">📱</div>
 <h3 class="text-xl font-semibold text-yellow-400 mb-2">Social Media Management</h3>
-<p class="text-white">Creating engaging content and managing your presence on all major platforms.</p>
+<p class="text-white">Creating engaging content and managing your presence on all major platforms.
+                    </p>
 </div>
 <!-- Service Card 3 -->
 <div class="bg-black p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105 hover:shadow-[0_0_15px_4px_rgba(255,215,0,0.5)] border border-yellow-400 transition-all duration-300">
 <div class="text-4xl sm:text-5xl mb-4 sm:mb-6">💸</div>
 <h3 class="text-xl font-semibold text-yellow-400 mb-2">Paid Advertising (PPC)</h3>
-<p class="text-white">Expertly managed campaigns on Facebook, Instagram, and other platforms for high ROI.</p>
+<p class="text-white">Expertly managed campaigns on Facebook, Instagram, and other platforms for
+                        high ROI.</p>
 </div>
 <!-- Service Card 4 -->
 <div class="bg-black p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105 hover:shadow-[0_0_15px_4px_rgba(255,215,0,0.5)] border border-yellow-400 transition-all duration-300">
@@ -232,7 +281,8 @@
 <div class="bg-black p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105 hover:shadow-[0_0_15px_4px_rgba(255,215,0,0.5)] border border-yellow-400 transition-all duration-300">
 <div class="text-4xl sm:text-5xl mb-4 sm:mb-6">✍️</div>
 <h3 class="text-xl font-semibold text-yellow-400 mb-2">Content Creation</h3>
-<p class="text-white">Producing compelling written and visual content that resonates with your audience.</p>
+<p class="text-white">Producing compelling written and visual content that resonates with your
+                        audience.</p>
 </div>
 <!-- Service Card 6 -->
 <div class="bg-black p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105 hover:shadow-[0_0_15px_4px_rgba(255,215,0,0.5)] border border-yellow-400 transition-all duration-300">
@@ -244,13 +294,15 @@
 <div class="bg-black p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105 hover:shadow-[0_0_15px_4px_rgba(255,215,0,0.5)] border border-yellow-400 transition-all duration-300">
 <div class="text-4xl sm:text-5xl mb-4 sm:mb-6">🌐</div>
 <h3 class="text-xl font-semibold text-yellow-400 mb-2">Website Design</h3>
-<p class="text-white">Crafting stunning, responsive, and user-friendly websites tailored to your brand.</p>
+<p class="text-white">Crafting stunning, responsive, and user-friendly websites tailored to your
+                        brand.</p>
 </div>
 <!-- Service Card 8 -->
 <div class="bg-black p-6 rounded-lg shadow-lg text-center transform transition duration-300 hover:scale-105 hover:shadow-[0_0_15px_4px_rgba(255,215,0,0.5)] border border-yellow-400 transition-all duration-300">
 <div class="text-4xl sm:text-5xl mb-4 sm:mb-6">🎨</div>
 <h3 class="text-xl font-semibold text-yellow-400 mb-2">Graphic Design</h3>
-<p class="text-white">Creating captivating visuals for your brand, from logos to marketing collateral.</p>
+<p class="text-white">Creating captivating visuals for your brand, from logos to marketing
+                        collateral.</p>
 </div>
 </div>
 </div>
@@ -262,7 +314,7 @@
                 Ready to Elevate Your Marketing?
             </h2>
 <p class="text-base sm:text-lg mb-8 sm:mb-10 opacity-90">
-                Let's discuss how Amera Marketing can help your business thrive.
+                Let's discuss how AmEra Marketing can help your business thrive.
             </p>
 <button class="bg-black text-yellow-400 hover:bg-yellow-700 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
                 Contact Us Today
@@ -273,7 +325,7 @@
 <section class="py-16 sm:py-20 px-4 sm:px-6 bg-black rounded-lg shadow-md mx-auto my-8 max-w-6xl" id="contact">
 <div class="container mx-auto text-center">
 <h2 class="text-2xl sm:text-3xl md:text-3xl sm:text-4xl font-bold mb-10 text-yellow-400">
-                Get in Touch with Amera Marketing
+                Get in Touch with AmEra Marketing
             </h2>
 <p class="text-base sm:text-lg mb-8 sm:mb-10 text-white">
                 Have a question or want to discuss your project? Reach out to us!
@@ -303,48 +355,67 @@
 <div class="container mx-auto text-left">
 <h2 class="text-2xl sm:text-3xl md:text-3xl sm:text-4xl font-bold text-yellow-400 mb-6">Privacy Policy</h2>
 <p class="text-white leading-relaxed mb-4 sm:mb-6">
-                At Amera Marketing, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and disclose information about you when you visit our website and use our services.
+                At AmEra Marketing, we are committed to protecting your privacy. This Privacy Policy explains how we
+                collect, use, and disclose information about you when you visit our website and use our services.
             </p>
 <h3 class="text-2xl font-semibold text-yellow-400 mb-3">Information We Collect</h3>
 <p class="text-white leading-relaxed mb-4 sm:mb-6">
-                We collect information you provide directly to us, such as your name, email address, and message when you use our contact form. We may also collect certain information automatically when you visit our website, including your IP address, browser type, and usage data.
+                We collect information you provide directly to us, such as your name, email address, and message when
+                you use our contact form. We may also collect certain information automatically when you visit our
+                website, including your IP address, browser type, and usage data.
             </p>
 <h3 class="text-2xl font-semibold text-yellow-400 mb-3">How We Use Your Information</h3>
 <p class="text-white leading-relaxed mb-4 sm:mb-6">
-                We use the information we collect to respond to your inquiries, provide our services, improve our website, and for marketing purposes. We do not sell or share your personal information with third parties for their direct marketing purposes without your consent.
+                We use the information we collect to respond to your inquiries, provide our services, improve our
+                website, and for marketing purposes. We do not sell or share your personal information with third
+                parties for their direct marketing purposes without your consent.
             </p>
 <h3 class="text-2xl font-semibold text-yellow-400 mb-3">Data Security</h3>
 <p class="text-white leading-relaxed mb-4 sm:mb-6">
-                We implement reasonable security measures to protect your information from unauthorized access, alteration, disclosure, or destruction. However, no internet transmission is entirely secure, and we cannot guarantee the absolute security of your data.
+                We implement reasonable security measures to protect your information from unauthorized access,
+                alteration, disclosure, or destruction. However, no internet transmission is entirely secure, and we
+                cannot guarantee the absolute security of your data.
             </p>
 <h3 class="text-2xl font-semibold text-yellow-400 mb-3">Changes to This Policy</h3>
 <p class="text-white leading-relaxed">
-                We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. Your continued use of our website after any changes constitutes your acceptance of the updated policy.
+                We may update this Privacy Policy from time to time. We will notify you of any changes by posting the
+                new Privacy Policy on this page. Your continued use of our website after any changes constitutes your
+                acceptance of the updated policy.
             </p>
 </div>
 </section>
 <!-- Terms of Service Section -->
 <section class="py-16 sm:py-20 px-4 sm:px-6 bg-black rounded-lg shadow-md mx-auto my-8 max-w-6xl" id="terms-of-service">
 <div class="container mx-auto text-left">
-<h2 class="text-2xl sm:text-3xl md:text-3xl sm:text-4xl font-bold text-yellow-400 mb-6">Terms of Service</h2>
+<h2 class="text-2xl sm:text-3xl md:text-3xl sm:text-4xl font-bold text-yellow-400 mb-6">Terms of Service
+            </h2>
 <p class="text-white leading-relaxed mb-4 sm:mb-6">
-                Welcome to Amera Marketing! These Terms of Service ("Terms") govern your use of our website and services. By accessing or using our website, you agree to be bound by these Terms.
+                Welcome to AmEra Marketing! These Terms of Service ("Terms") govern your use of our website and
+                services. By accessing or using our website, you agree to be bound by these Terms.
             </p>
 <h3 class="text-2xl font-semibold text-yellow-400 mb-3">Use of Website</h3>
 <p class="text-white leading-relaxed mb-4 sm:mb-6">
-                You agree to use our website and services only for lawful purposes and in accordance with these Terms. You must not use our website in any way that causes, or may cause, damage to the website or impairment of the availability or accessibility of the website.
+                You agree to use our website and services only for lawful purposes and in accordance with these Terms.
+                You must not use our website in any way that causes, or may cause, damage to the website or impairment
+                of the availability or accessibility of the website.
             </p>
 <h3 class="text-2xl font-semibold text-yellow-400 mb-3">Intellectual Property</h3>
 <p class="text-white leading-relaxed mb-4 sm:mb-6">
-                All content on this website, including text, graphics, logos, and images, is the property of Amera Marketing or its content suppliers and is protected by intellectual property laws. You may not reproduce, distribute, or transmit any content without our prior written consent.
+                All content on this website, including text, graphics, logos, and images, is the property of Amera
+                Marketing or its content suppliers and is protected by intellectual property laws. You may not
+                reproduce, distribute, or transmit any content without our prior written consent.
             </p>
 <h3 class="text-2xl font-semibold text-yellow-400 mb-3">Limitation of Liability</h3>
 <p class="text-white leading-relaxed mb-4 sm:mb-6">
-                Amera Marketing will not be liable for any damages arising out of or in connection with the use of this website or its services. This includes, but is not limited to, direct, indirect, incidental, punitive, and consequential damages.
+                AmEra Marketing will not be liable for any damages arising out of or in connection with the use of this
+                website or its services. This includes, but is not limited to, direct, indirect, incidental, punitive,
+                and consequential damages.
             </p>
 <h3 class="text-2xl font-semibold text-yellow-400 mb-3">Governing Law</h3>
 <p class="text-white leading-relaxed">
-                These Terms shall be governed by and construed in accordance with the laws of [Your Country/State], without regard to its conflict of law provisions. Any disputes arising under these Terms shall be subject to the exclusive jurisdiction of the courts in [Your City/Region].
+                These Terms shall be governed by and construed in accordance with the laws of [Your Country/State],
+                without regard to its conflict of law provisions. Any disputes arising under these Terms shall be
+                subject to the exclusive jurisdiction of the courts in [Your City/Region].
             </p>
 </div>
 </section>
@@ -354,7 +425,7 @@
 <div class="flex justify-center space-x-4 mb-4 sm:mb-6">
 <a class="text-white hover:text-yellow-400 transition duration-200 footer-policy-link" href="#privacy-policy">Privacy Policy</a>
 <a class="text-white hover:text-yellow-400 transition duration-200 footer-policy-link" href="#terms-of-service">Terms of Service</a>
-</div>
+<a class="text-white hover:text-yellow-400 transition duration-200 footer-policy-link" href="blog.html">Blog</a></div>
 <div class="mt-6 mb-4 sm:mb-6">
 <h4 class="text-base sm:text-lg font-semibold text-yellow-400 mb-3">Follow Us on Social Media</h4>
 <div class="flex justify-center space-x-6">
@@ -372,7 +443,7 @@
 </a>
 </div>
 </div>
-<p class="text-sm">© 2025 Amera Marketing. All rights reserved.</p>
+<p class="text-sm">© 2025 AmEra Marketing. All rights reserved.</p>
 </div>
 </footer>
 <!-- Submission Status Modal -->

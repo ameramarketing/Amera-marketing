@@ -41,21 +41,7 @@ Welcome to the official repository for **Amera Marketing** — a sleek, responsi
 
 ## 📸 Preview
 
-![Preview](./amera-logo.jpeg)
-
----
-
-## 📁 Deployment
-
-1. Push this repo to GitHub
-2. Connect to Vercel
-3. Set:
-   - Framework Preset: `Other`
-   - Build Command: *(leave blank)*
-   - Output Directory: *(leave blank)*
-4. Add your domain (e.g. `ameramarketing.in`)
-5. Configure DNS (A record + CNAME)
-
+![Preview](./amera-logo.jpeg) 
 ---
 
 ## 🧩 SEO + Tracking Features
